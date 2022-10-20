@@ -1,6 +1,7 @@
-name: CI
+name: publish
 on:
-  push
+  release:
+    types: [published]
 
 jobs:
   run:
